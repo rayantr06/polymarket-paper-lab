@@ -1,0 +1,55 @@
+name: Observation indépendante de la source AAA
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+  actions: read
+concurrency:
+  group: aaa-source-20261110-v1
+  cancel-in-progress: false
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803
+      - uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38
+        with:
+          node-version: '24'
+      - run: node --test aaa/test.mjs
+  observation1:
+    needs: tests
+    uses: ./.github/workflows/aaa-segment.yml
+    with:
+      number: 1
+  observation2:
+    needs: observation1
+    if: needs.observation1.outputs.finished != 'true'
+    uses: ./.github/workflows/aaa-segment.yml
+    with:
+      number: 2
+  observation3:
+    needs: observation2
+    if: needs.observation2.outputs.finished != 'true'
+    uses: ./.github/workflows/aaa-segment.yml
+    with:
+      number: 3
+  observation4:
+    needs: observation3
+    if: needs.observation3.outputs.finished != 'true'
+    uses: ./.github/workflows/aaa-segment.yml
+    with:
+      number: 4
+  observation5:
+    needs: observation4
+    if: needs.observation4.outputs.finished != 'true'
+    uses: ./.github/workflows/aaa-segment.yml
+    with:
+      number: 5
+  observation6:
+    needs: observation5
+    if: needs.observation5.outputs.finished != 'true'
+    uses: ./.github/workflows/aaa-segment.yml
+    with:
+      number: 6

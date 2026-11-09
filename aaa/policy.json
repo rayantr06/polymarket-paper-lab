@@ -1,0 +1,28 @@
+{
+  "id": "aaa-source-20261110-v1",
+  "repository": "rayantr06/polymarket-paper-lab",
+  "fixedStart": 1794267198744,
+  "fixedEnd": 1794339198744,
+  "initializeBefore": 1794290400000,
+  "targetDate": "2026-11-10",
+  "observationAt": 1794322800000,
+  "indicativePublicationAt": 1794297600000,
+  "sourceIntervalMs": 60000,
+  "walletIntervalMs": 120000,
+  "bookIntervalMs": 300000,
+  "delaysMs": [
+    60000,
+    300000,
+    900000
+  ],
+  "entryToleranceMs": 90000,
+  "budget": 50,
+  "extraCost": 0.02,
+  "maxRequests": 15000,
+  "maxBytes": 41943040,
+  "networkTimeoutMs": 8000,
+  "wallets": [
+    "0xc8b13df44dc3ea8e53b1d6a840ae5f879dd18436",
+    "0xe9f5d0aab304d41ff037436d2d920524ed6d7368"
+  ]
+}
