@@ -1,0 +1,559 @@
+name: Test virtuel des trois wallets
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+  actions: read
+concurrency:
+  group: campagne-specialistes-v1
+  cancel-in-progress: false
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803
+      - uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38
+        with:
+          node-version: '24'
+      - run: node --test test/*.test.mjs
+  session01:
+    needs: tests
+    uses: ./.github/workflows/segment.yml
+    with:
+      number: 1
+  session02:
+    needs: session01
+    if: needs.session01.outputs.finished != 'true'
+    uses: ./.github/workflows/segment.yml
+    with:
+      number: 2
+  session03:
+    needs: session02
+    if: needs.session02.outputs.finished != 'true'
+    uses: ./.github/workflows/segment.yml
+    with:
+      number: 3
+  session04:
+    needs: session03
+    if: needs.session03.outputs.finished != 'true'
+    uses: ./.github/workflows/segment.yml
+    with:
+      number: 4
+  session05:
+    needs: session04
+    if: needs.session04.outputs.finished != 'true'
+    uses: ./.github/workflows/segment.yml
+    with:
+      number: 5
+  session06:
+    needs: session05
+    if: needs.session05.outputs.finished != 'true'
+    uses: ./.github/workflows/segment.yml
+    with:
+      number: 6
+  session07:
+    needs: session06
+    if: needs.session06.outputs.finished != 'true'
+    uses: ./.github/workflows/segment.yml
+    with:
+      number: 7
+  session08:
+    needs: session07
+    if: needs.session07.outputs.finished != 'true'
+    uses: ./.github/workflows/segment.yml
+    with:
+      number: 8
+  session09:
+    needs: session08
+    if: needs.session08.outputs.finished != 'true'
+    uses: ./.github/workflows/segment.yml
+    with:
+      number: 9
+  session10:
+    needs: session09
+    if: needs.session09.outputs.finished != 'true'
+    uses: ./.github/workflows/segment.yml
+    with:
+      number: 10
+  session11:
+    needs: session10
+    if: needs.session10.outputs.finished != 'true'
+    uses: ./.github/workflows/segment.yml
+    with:
+      number: 11
+  session12:
+    needs: session11
+    if: needs.session11.outputs.finished != 'true'
+    uses: ./.github/workflows/segment.yml
+    with:
+      number: 12
+  session13:
+    needs: session12
+    if: needs.session12.outputs.finished != 'true'
+    uses: ./.github/workflows/segment.yml
+    with:
+      number: 13
+  session14:
+    needs: session13
+    if: needs.session13.outputs.finished != 'true'
+    uses: ./.github/workflows/segment.yml
+    with:
+      number: 14
+  session15:
+    needs: session14
+    if: needs.session14.outputs.finished != 'true'
+    uses: ./.github/workflows/segment.yml
+    with:
+      number: 15
+  session16:
+    needs: session15
+    if: needs.session15.outputs.finished != 'true'
+    uses: ./.github/workflows/segment.yml
+    with:
+      number: 16
+  session17:
+    needs: session16
+    if: needs.session16.outputs.finished != 'true'
+    uses: ./.github/workflows/segment.yml
+    with:
+      number: 17
+  session18:
+    needs: session17
+    if: needs.session17.outputs.finished != 'true'
+    uses: ./.github/workflows/segment.yml
+    with:
+      number: 18
+  session19:
+    needs: session18
+    if: needs.session18.outputs.finished != 'true'
+    uses: ./.github/workflows/segment.yml
+    with:
+      number: 19
+  session20:
+    needs: session19
+    if: needs.session19.outputs.finished != 'true'
+    uses: ./.github/workflows/segment.yml
+    with:
+      number: 20
+  session21:
+    needs: session20
+    if: needs.session20.outputs.finished != 'true'
+    uses: ./.github/workflows/segment.yml
+    with:
+      number: 21
+  session22:
+    needs: session21
+    if: needs.session21.outputs.finished != 'true'
+    uses: ./.github/workflows/segment.yml
+    with:
+      number: 22
+  session23:
+    needs: session22
+    if: needs.session22.outputs.finished != 'true'
+    uses: ./.github/workflows/segment.yml
+    with:
+      number: 23
+  session24:
+    needs: session23
+    if: needs.session23.outputs.finished != 'true'
+    uses: ./.github/workflows/segment.yml
+    with:
+      number: 24
+  session25:
+    needs: session24
+    if: needs.session24.outputs.finished != 'true'
+    uses: ./.github/workflows/segment.yml
+    with:
+      number: 25
+  session26:
+    needs: session25
+    if: needs.session25.outputs.finished != 'true'
+    uses: ./.github/workflows/segment.yml
+    with:
+      number: 26
+  session27:
+    needs: session26
+    if: needs.session26.outputs.finished != 'true'
+    uses: ./.github/workflows/segment.yml
+    with:
+      number: 27
+  session28:
+    needs: session27
+    if: needs.session27.outputs.finished != 'true'
+    uses: ./.github/workflows/segment.yml
+    with:
+      number: 28
+  session29:
+    needs: session28
+    if: needs.session28.outputs.finished != 'true'
+    uses: ./.github/workflows/segment.yml
+    with:
+      number: 29
+  session30:
+    needs: session29
+    if: needs.session29.outputs.finished != 'true'
+    uses: ./.github/workflows/segment.yml
+    with:
+      number: 30
+  session31:
+    needs: session30
+    if: needs.session30.outputs.finished != 'true'
+    uses: ./.github/workflows/segment.yml
+    with:
+      number: 31
+  session32:
+    needs: session31
+    if: needs.session31.outputs.finished != 'true'
+    uses: ./.github/workflows/segment.yml
+    with:
+      number: 32
+  session33:
+    needs: session32
+    if: needs.session32.outputs.finished != 'true'
+    uses: ./.github/workflows/segment.yml
+    with:
+      number: 33
+  session34:
+    needs: session33
+    if: needs.session33.outputs.finished != 'true'
+    uses: ./.github/workflows/segment.yml
+    with:
+      number: 34
+  session35:
+    needs: session34
+    if: needs.session34.outputs.finished != 'true'
+    uses: ./.github/workflows/segment.yml
+    with:
+      number: 35
+  session36:
+    needs: session35
+    if: needs.session35.outputs.finished != 'true'
+    uses: ./.github/workflows/segment.yml
+    with:
+      number: 36
+  session37:
+    needs: session36
+    if: needs.session36.outputs.finished != 'true'
+    uses: ./.github/workflows/segment.yml
+    with:
+      number: 37
+  session38:
+    needs: session37
+    if: needs.session37.outputs.finished != 'true'
+    uses: ./.github/workflows/segment.yml
+    with:
+      number: 38
+  session39:
+    needs: session38
+    if: needs.session38.outputs.finished != 'true'
+    uses: ./.github/workflows/segment.yml
+    with:
+      number: 39
+  session40:
+    needs: session39
+    if: needs.session39.outputs.finished != 'true'
+    uses: ./.github/workflows/segment.yml
+    with:
+      number: 40
+  session41:
+    needs: session40
+    if: needs.session40.outputs.finished != 'true'
+    uses: ./.github/workflows/segment.yml
+    with:
+      number: 41
+  session42:
+    needs: session41
+    if: needs.session41.outputs.finished != 'true'
+    uses: ./.github/workflows/segment.yml
+    with:
+      number: 42
+  session43:
+    needs: session42
+    if: needs.session42.outputs.finished != 'true'
+    uses: ./.github/workflows/segment.yml
+    with:
+      number: 43
+  session44:
+    needs: session43
+    if: needs.session43.outputs.finished != 'true'
+    uses: ./.github/workflows/segment.yml
+    with:
+      number: 44
+  session45:
+    needs: session44
+    if: needs.session44.outputs.finished != 'true'
+    uses: ./.github/workflows/segment.yml
+    with:
+      number: 45
+  session46:
+    needs: session45
+    if: needs.session45.outputs.finished != 'true'
+    uses: ./.github/workflows/segment.yml
+    with:
+      number: 46
+  session47:
+    needs: session46
+    if: needs.session46.outputs.finished != 'true'
+    uses: ./.github/workflows/segment.yml
+    with:
+      number: 47
+  session48:
+    needs: session47
+    if: needs.session47.outputs.finished != 'true'
+    uses: ./.github/workflows/segment.yml
+    with:
+      number: 48
+  session49:
+    needs: session48
+    if: needs.session48.outputs.finished != 'true'
+    uses: ./.github/workflows/segment.yml
+    with:
+      number: 49
+  session50:
+    needs: session49
+    if: needs.session49.outputs.finished != 'true'
+    uses: ./.github/workflows/segment.yml
+    with:
+      number: 50
+  session51:
+    needs: session50
+    if: needs.session50.outputs.finished != 'true'
+    uses: ./.github/workflows/segment.yml
+    with:
+      number: 51
+  session52:
+    needs: session51
+    if: needs.session51.outputs.finished != 'true'
+    uses: ./.github/workflows/segment.yml
+    with:
+      number: 52
+  session53:
+    needs: session52
+    if: needs.session52.outputs.finished != 'true'
+    uses: ./.github/workflows/segment.yml
+    with:
+      number: 53
+  session54:
+    needs: session53
+    if: needs.session53.outputs.finished != 'true'
+    uses: ./.github/workflows/segment.yml
+    with:
+      number: 54
+  session55:
+    needs: session54
+    if: needs.session54.outputs.finished != 'true'
+    uses: ./.github/workflows/segment.yml
+    with:
+      number: 55
+  session56:
+    needs: session55
+    if: needs.session55.outputs.finished != 'true'
+    uses: ./.github/workflows/segment.yml
+    with:
+      number: 56
+  session57:
+    needs: session56
+    if: needs.session56.outputs.finished != 'true'
+    uses: ./.github/workflows/segment.yml
+    with:
+      number: 57
+  session58:
+    needs: session57
+    if: needs.session57.outputs.finished != 'true'
+    uses: ./.github/workflows/segment.yml
+    with:
+      number: 58
+  session59:
+    needs: session58
+    if: needs.session58.outputs.finished != 'true'
+    uses: ./.github/workflows/segment.yml
+    with:
+      number: 59
+  session60:
+    needs: session59
+    if: needs.session59.outputs.finished != 'true'
+    uses: ./.github/workflows/segment.yml
+    with:
+      number: 60
+  session61:
+    needs: session60
+    if: needs.session60.outputs.finished != 'true'
+    uses: ./.github/workflows/segment.yml
+    with:
+      number: 61
+  session62:
+    needs: session61
+    if: needs.session61.outputs.finished != 'true'
+    uses: ./.github/workflows/segment.yml
+    with:
+      number: 62
+  session63:
+    needs: session62
+    if: needs.session62.outputs.finished != 'true'
+    uses: ./.github/workflows/segment.yml
+    with:
+      number: 63
+  session64:
+    needs: session63
+    if: needs.session63.outputs.finished != 'true'
+    uses: ./.github/workflows/segment.yml
+    with:
+      number: 64
+  session65:
+    needs: session64
+    if: needs.session64.outputs.finished != 'true'
+    uses: ./.github/workflows/segment.yml
+    with:
+      number: 65
+  session66:
+    needs: session65
+    if: needs.session65.outputs.finished != 'true'
+    uses: ./.github/workflows/segment.yml
+    with:
+      number: 66
+  session67:
+    needs: session66
+    if: needs.session66.outputs.finished != 'true'
+    uses: ./.github/workflows/segment.yml
+    with:
+      number: 67
+  session68:
+    needs: session67
+    if: needs.session67.outputs.finished != 'true'
+    uses: ./.github/workflows/segment.yml
+    with:
+      number: 68
+  session69:
+    needs: session68
+    if: needs.session68.outputs.finished != 'true'
+    uses: ./.github/workflows/segment.yml
+    with:
+      number: 69
+  session70:
+    needs: session69
+    if: needs.session69.outputs.finished != 'true'
+    uses: ./.github/workflows/segment.yml
+    with:
+      number: 70
+  session71:
+    needs: session70
+    if: needs.session70.outputs.finished != 'true'
+    uses: ./.github/workflows/segment.yml
+    with:
+      number: 71
+  session72:
+    needs: session71
+    if: needs.session71.outputs.finished != 'true'
+    uses: ./.github/workflows/segment.yml
+    with:
+      number: 72
+  session73:
+    needs: session72
+    if: needs.session72.outputs.finished != 'true'
+    uses: ./.github/workflows/segment.yml
+    with:
+      number: 73
+  session74:
+    needs: session73
+    if: needs.session73.outputs.finished != 'true'
+    uses: ./.github/workflows/segment.yml
+    with:
+      number: 74
+  session75:
+    needs: session74
+    if: needs.session74.outputs.finished != 'true'
+    uses: ./.github/workflows/segment.yml
+    with:
+      number: 75
+  session76:
+    needs: session75
+    if: needs.session75.outputs.finished != 'true'
+    uses: ./.github/workflows/segment.yml
+    with:
+      number: 76
+  session77:
+    needs: session76
+    if: needs.session76.outputs.finished != 'true'
+    uses: ./.github/workflows/segment.yml
+    with:
+      number: 77
+  session78:
+    needs: session77
+    if: needs.session77.outputs.finished != 'true'
+    uses: ./.github/workflows/segment.yml
+    with:
+      number: 78
+  session79:
+    needs: session78
+    if: needs.session78.outputs.finished != 'true'
+    uses: ./.github/workflows/segment.yml
+    with:
+      number: 79
+  session80:
+    needs: session79
+    if: needs.session79.outputs.finished != 'true'
+    uses: ./.github/workflows/segment.yml
+    with:
+      number: 80
+  session81:
+    needs: session80
+    if: needs.session80.outputs.finished != 'true'
+    uses: ./.github/workflows/segment.yml
+    with:
+      number: 81
+  session82:
+    needs: session81
+    if: needs.session81.outputs.finished != 'true'
+    uses: ./.github/workflows/segment.yml
+    with:
+      number: 82
+  session83:
+    needs: session82
+    if: needs.session82.outputs.finished != 'true'
+    uses: ./.github/workflows/segment.yml
+    with:
+      number: 83
+  session84:
+    needs: session83
+    if: needs.session83.outputs.finished != 'true'
+    uses: ./.github/workflows/segment.yml
+    with:
+      number: 84
+  session85:
+    needs: session84
+    if: needs.session84.outputs.finished != 'true'
+    uses: ./.github/workflows/segment.yml
+    with:
+      number: 85
+  session86:
+    needs: session85
+    if: needs.session85.outputs.finished != 'true'
+    uses: ./.github/workflows/segment.yml
+    with:
+      number: 86
+  session87:
+    needs: session86
+    if: needs.session86.outputs.finished != 'true'
+    uses: ./.github/workflows/segment.yml
+    with:
+      number: 87
+  session88:
+    needs: session87
+    if: needs.session87.outputs.finished != 'true'
+    uses: ./.github/workflows/segment.yml
+    with:
+      number: 88
+  session89:
+    needs: session88
+    if: needs.session88.outputs.finished != 'true'
+    uses: ./.github/workflows/segment.yml
+    with:
+      number: 89
+  session90:
+    needs: session89
+    if: needs.session89.outputs.finished != 'true'
+    uses: ./.github/workflows/segment.yml
+    with:
+      number: 90

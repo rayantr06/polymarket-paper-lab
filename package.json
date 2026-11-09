@@ -1,0 +1,9 @@
+{
+  "name": "polymarket-paper-lab",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Prospective public-data software experiment: paper replication of three wallets, without trading",
+  "engines": {"node": ">=24"},
+  "scripts": {"test": "node --test test/*.test.mjs"}
+}
