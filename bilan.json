@@ -1,0 +1,275 @@
+{
+  "generatedAt": 1794267543847.2908,
+  "manifest": {
+    "campaign": "aaa-source-20261110-v1",
+    "policyHash": "d45e85c4a807aec96e5be8da9e52471eadc5b7a99110a267d1efce3e9e885279",
+    "seedHash": "8f3520eb917c98c387df0e5460248d3d7a40fc58228c391114f9273477c0f11c",
+    "sourceRun": "42722136789",
+    "codeCommit": "a92b89b4e7f72951295606128e6f552fca273cf6",
+    "start": 1794267198744,
+    "end": 1794339198744,
+    "createdAt": 1794267541785.7214
+  },
+  "phase": "waiting-for-target-value",
+  "policy": {
+    "id": "aaa-source-20261110-v1",
+    "repository": "rayantr06/polymarket-paper-lab",
+    "fixedStart": 1794267198744,
+    "fixedEnd": 1794339198744,
+    "initializeBefore": 1794290400000,
+    "targetDate": "2026-11-10",
+    "observationAt": 1794322800000,
+    "indicativePublicationAt": 1794297600000,
+    "sourceIntervalMs": 60000,
+    "walletIntervalMs": 120000,
+    "bookIntervalMs": 300000,
+    "delaysMs": [
+      60000,
+      300000,
+      900000
+    ],
+    "entryToleranceMs": 90000,
+    "budget": 50,
+    "extraCost": 0.02,
+    "maxRequests": 15000,
+    "maxBytes": 41943040,
+    "networkTimeoutMs": 8000,
+    "wallets": [
+      "0xc8b13df44dc3ea8e53b1d6a840ae5f879dd18436",
+      "0xe9f5d0aab304d41ff037436d2d920524ed6d7368"
+    ]
+  },
+  "lastTick": 1794267543843.5461,
+  "ticks": 1,
+  "requests": 20,
+  "databaseBytes": 49152,
+  "finished": null,
+  "signal": null,
+  "latestSource": {
+    "date": "2026-11-09",
+    "current": 40093,
+    "yesterday": 40203,
+    "unit": "USD per gallon, integer ten-thousandths",
+    "receivedAt": 1794267542768.2048,
+    "requestedAt": 1794267542638.2834,
+    "bodyHash": "b4dc7d98822b363bb242b12e9363b02989760b13cc0dafef22989d724a8233f5",
+    "cacheAge": "264",
+    "serverDate": "Mon, 09 Nov 2026 23:39:02 GMT",
+    "lastModified": "Mon, 09 Nov 2026 23:34:38 GMT",
+    "etag": null,
+    "cacheControl": "max-age=600, must-revalidate",
+    "yesterdayMatchesKnownPriorDay": false,
+    "priorDayReference": {
+      "date": "2026-11-09",
+      "value": 40093,
+      "receivedAt": 1794267198668,
+      "meaning": "Prior-day value actually received during seed creation, not an independently certified 10am historical observation"
+    }
+  },
+  "sourceReads": 1,
+  "sourceChanges": [
+    {
+      "before": null,
+      "after": {
+        "date": "2026-11-09",
+        "current": 40093,
+        "yesterday": 40203,
+        "unit": "USD per gallon, integer ten-thousandths",
+        "receivedAt": 1794267542768.2048,
+        "requestedAt": 1794267542638.2834,
+        "bodyHash": "b4dc7d98822b363bb242b12e9363b02989760b13cc0dafef22989d724a8233f5",
+        "cacheAge": "264",
+        "serverDate": "Mon, 09 Nov 2026 23:39:02 GMT",
+        "lastModified": "Mon, 09 Nov 2026 23:34:38 GMT",
+        "etag": null,
+        "cacheControl": "max-age=600, must-revalidate",
+        "yesterdayMatchesKnownPriorDay": false,
+        "priorDayReference": {
+          "date": "2026-11-09",
+          "value": 40093,
+          "receivedAt": 1794267198668,
+          "meaning": "Prior-day value actually received during seed creation, not an independently certified 10am historical observation"
+        }
+      },
+      "id": "source-change:1",
+      "kind": "source-change",
+      "knownAt": 1794267542774.7664
+    }
+  ],
+  "clockAudits": [
+    {
+      "at": 1794267542636.8018,
+      "samples": [
+        {
+          "start": 1794267541791.0667,
+          "end": 1794267542164.6895,
+          "seconds": 1794267542,
+          "low": -164.689453125,
+          "high": 1208.933349609375
+        },
+        {
+          "start": 1794267542164.7837,
+          "end": 1794267542293.9941,
+          "seconds": 1794267542,
+          "low": -293.994140625,
+          "high": 835.21630859375
+        },
+        {
+          "start": 1794267542294.0068,
+          "end": 1794267542408.7358,
+          "seconds": 1794267542,
+          "low": -408.73583984375,
+          "high": 705.9931640625
+        },
+        {
+          "start": 1794267542408.746,
+          "end": 1794267542523.9548,
+          "seconds": 1794267542,
+          "low": -523.954833984375,
+          "high": 591.25390625
+        },
+        {
+          "start": 1794267542523.9631,
+          "end": 1794267542636.6511,
+          "seconds": 1794267542,
+          "low": -636.651123046875,
+          "high": 476.036865234375
+        }
+      ],
+      "offsetMs": 155.6737060546875,
+      "uncertaintyMs": 320.3631591796875,
+      "meaning": "UTC receipt clock audited; offset not applied to one data stream only",
+      "id": "clock:1794267542636.8018",
+      "kind": "clock",
+      "knownAt": 1794267542636.8318
+    }
+  ],
+  "decisions": [],
+  "periodicBooks": [
+    {
+      "requestedAt": 1794267542775.5527,
+      "receivedAt": 1794267543569.7886,
+      "frameCount": 1,
+      "snapshots": [
+        {
+          "market": "will-us-gas-price-be-less-than-3pt99-on-november-10-2026",
+          "token": "58248700490994893422432052583850588022892228581430348117260987050885564897242",
+          "receivedAt": 1794267543569.1873,
+          "exchangeStateTimestamp": 1794267533585,
+          "bestBid": 0.95,
+          "bestAsk": 0.986,
+          "acceptingOrders": true,
+          "streamInitialized": true,
+          "streamInvalid": false,
+          "depthRetention": "Twenty best levels per side for periodic diagnostics; not a full historic order book"
+        },
+        {
+          "market": "will-us-gas-price-be-between-3pt99-and-4pt00-on-november-10-2026",
+          "token": "48422421716122174063335873679646091272015687179296298711368611324168779407941",
+          "receivedAt": 1794267543569.1873,
+          "exchangeStateTimestamp": 1794267385755,
+          "bestBid": 0.011,
+          "bestAsk": 0.048,
+          "acceptingOrders": true,
+          "streamInitialized": true,
+          "streamInvalid": false,
+          "depthRetention": "Twenty best levels per side for periodic diagnostics; not a full historic order book"
+        },
+        {
+          "market": "will-us-gas-price-be-between-4pt00-and-4pt01-on-november-10-2026",
+          "token": "95869368647435951779119401963012543671825030907536579730592090569205780358005",
+          "receivedAt": 1794267543569.1873,
+          "exchangeStateTimestamp": 1794267456813,
+          "bestBid": 0.001,
+          "bestAsk": 0.038,
+          "acceptingOrders": true,
+          "streamInitialized": true,
+          "streamInvalid": false,
+          "depthRetention": "Twenty best levels per side for periodic diagnostics; not a full historic order book"
+        },
+        {
+          "market": "will-us-gas-price-be-between-4pt01-and-4pt02-on-november-10-2026",
+          "token": "29933284720097987623765528683664284784529428120753502506654028855111921703757",
+          "receivedAt": 1794267543569.1873,
+          "exchangeStateTimestamp": 1794267536465,
+          "bestBid": 0.001,
+          "bestAsk": 0.036,
+          "acceptingOrders": true,
+          "streamInitialized": true,
+          "streamInvalid": false,
+          "depthRetention": "Twenty best levels per side for periodic diagnostics; not a full historic order book"
+        },
+        {
+          "market": "will-us-gas-price-be-between-4pt02-and-4pt03-on-november-10-2026",
+          "token": "69233084327737188360823828858378168810867324626401822874318279281105906062968",
+          "receivedAt": 1794267543569.1873,
+          "exchangeStateTimestamp": 1794267533010,
+          "bestBid": 0.001,
+          "bestAsk": 0.036,
+          "acceptingOrders": true,
+          "streamInitialized": true,
+          "streamInvalid": false,
+          "depthRetention": "Twenty best levels per side for periodic diagnostics; not a full historic order book"
+        },
+        {
+          "market": "will-us-gas-price-be-4pt03-or-more-on-november-10-2026",
+          "token": "47637152580880682076143618340275117683350533398972906701063592457409962181358",
+          "receivedAt": 1794267543569.1873,
+          "exchangeStateTimestamp": 1794267531886,
+          "bestBid": 0.001,
+          "bestAsk": 0.036,
+          "acceptingOrders": true,
+          "streamInitialized": true,
+          "streamInvalid": false,
+          "depthRetention": "Twenty best levels per side for periodic diagnostics; not a full historic order book"
+        }
+      ]
+    }
+  ],
+  "walletActions": [],
+  "walletCoverage": [
+    {
+      "wallet": "0xc8b13df44dc3ea8e53b1d6a840ae5f879dd18436",
+      "from": 1794267198744,
+      "end": 1794267543571.5427,
+      "receivedAt": 1794267543715.119,
+      "pages": 1,
+      "complete": true,
+      "targetRows": 0,
+      "allRows": 0,
+      "lastSuccess": 1794267543715.119,
+      "id": "wallet-read:0xc8b13df44dc3ea8e53b1d6a840ae5f879dd18436:1794267543715.119",
+      "kind": "wallet-read",
+      "knownAt": 1794267543715.1587
+    },
+    {
+      "wallet": "0xe9f5d0aab304d41ff037436d2d920524ed6d7368",
+      "from": 1794267198744,
+      "end": 1794267543716.6423,
+      "receivedAt": 1794267543842.5898,
+      "pages": 1,
+      "complete": true,
+      "targetRows": 0,
+      "allRows": 0,
+      "lastSuccess": 1794267543842.5898,
+      "id": "wallet-read:0xe9f5d0aab304d41ff037436d2d920524ed6d7368:1794267543842.5898",
+      "kind": "wallet-read",
+      "knownAt": 1794267543842.6072
+    }
+  ],
+  "gaps": [],
+  "errors": [],
+  "errorCount": 0,
+  "limitations": [
+    "One target day; three delay scenarios are alternatives, not independent gains.",
+    "AAA indicates updates around 03:00 ET; contract observation is 10:00 ET. Neither is a measured global publication timestamp.",
+    "First target receipt is local to this observer and can lag cache/CDN publication. Old/new receipt brackets are descriptive, not certainty that the source was unpublished elsewhere.",
+    "A value observed before 10am can change before the contract observation. First choice is retained and any later different payout remains a loss.",
+    "Yesterday Avg must match the prior-day value received at seed creation. That reference is not an independently certified historical 10am observation.",
+    "Only source information known before the quote authorizes a decision. Later source changes are preserved as subsequent evidence, never applied retroactively.",
+    "Wallet execution timestamp does not date order placement or establish the information known to its owner.",
+    "Depth is served state without reserved liquidity or guaranteed fills. Periodic pre-release books retain only twenty best levels per side.",
+    "Simulated known-number purchases have no calibrated advance probability. Margins remain conditional until verified resolution; unknown payouts have unknown net.",
+    "No actual order, private key or modification of existing pilots."
+  ]
+}

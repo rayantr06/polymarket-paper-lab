@@ -1,0 +1,1078 @@
+{
+  "manifest": {
+    "campaign": "aaa-source-20261110-v1",
+    "policyHash": "d45e85c4a807aec96e5be8da9e52471eadc5b7a99110a267d1efce3e9e885279",
+    "seedHash": "8f3520eb917c98c387df0e5460248d3d7a40fc58228c391114f9273477c0f11c",
+    "sourceRun": "42722136789",
+    "codeCommit": "a92b89b4e7f72951295606128e6f552fca273cf6",
+    "start": 1794267198744,
+    "end": 1794339198744,
+    "createdAt": 1794267541785.7214
+  },
+  "sourceReads": [
+    {
+      "date": "2026-11-09",
+      "current": 40093,
+      "yesterday": 40203,
+      "unit": "USD per gallon, integer ten-thousandths",
+      "receivedAt": 1794267542768.2048,
+      "requestedAt": 1794267542638.2834,
+      "bodyHash": "b4dc7d98822b363bb242b12e9363b02989760b13cc0dafef22989d724a8233f5",
+      "cacheAge": "264",
+      "serverDate": "Mon, 09 Nov 2026 23:39:02 GMT",
+      "lastModified": "Mon, 09 Nov 2026 23:34:38 GMT",
+      "etag": null,
+      "cacheControl": "max-age=600, must-revalidate",
+      "yesterdayMatchesKnownPriorDay": false,
+      "priorDayReference": {
+        "date": "2026-11-09",
+        "value": 40093,
+        "receivedAt": 1794267198668,
+        "meaning": "Prior-day value actually received during seed creation, not an independently certified 10am historical observation"
+      },
+      "id": "source:1",
+      "kind": "source",
+      "knownAt": 1794267542773.5767
+    }
+  ],
+  "periodicBooks": [
+    {
+      "requestedAt": 1794267542775.5527,
+      "receivedAt": 1794267543569.7886,
+      "snapshots": [
+        {
+          "requestedAt": 1794267542777.798,
+          "receivedAt": 1794267543569.1873,
+          "timestamp": 1794267543569.1873,
+          "market": "will-us-gas-price-be-less-than-3pt99-on-november-10-2026",
+          "outcome": "Yes",
+          "token": "58248700490994893422432052583850588022892228581430348117260987050885564897242",
+          "condition": "0x9625512146d81531d472fd65ee26e200a9b3470591b9305765b3eda15e1cf9ca",
+          "asks": [
+            {
+              "price": "0.986",
+              "size": "10.43"
+            },
+            {
+              "price": "0.987",
+              "size": "20"
+            },
+            {
+              "price": "0.988",
+              "size": "12.18"
+            },
+            {
+              "price": "0.989",
+              "size": "36.65"
+            },
+            {
+              "price": "0.99",
+              "size": "5"
+            },
+            {
+              "price": "0.994",
+              "size": "16.66"
+            },
+            {
+              "price": "0.995",
+              "size": "20"
+            },
+            {
+              "price": "0.996",
+              "size": "103.8"
+            },
+            {
+              "price": "0.997",
+              "size": "162"
+            },
+            {
+              "price": "0.998",
+              "size": "74.22"
+            },
+            {
+              "price": "0.999",
+              "size": "2714.38"
+            }
+          ],
+          "bids": [
+            {
+              "price": "0.95",
+              "size": "200"
+            },
+            {
+              "price": "0.92",
+              "size": "18"
+            },
+            {
+              "price": "0.206",
+              "size": "5"
+            },
+            {
+              "price": "0.09",
+              "size": "5"
+            },
+            {
+              "price": "0.014",
+              "size": "6"
+            },
+            {
+              "price": "0.01",
+              "size": "5"
+            },
+            {
+              "price": "0.004",
+              "size": "20"
+            },
+            {
+              "price": "0.002",
+              "size": "20"
+            },
+            {
+              "price": "0.001",
+              "size": "90"
+            }
+          ],
+          "hash": "707242d506015797273d4bbd0c0998cf66c469ce",
+          "minNotional": 5,
+          "minShares": 5,
+          "acceptingOrders": true,
+          "feeRate": 0.04,
+          "feeExponent": 1,
+          "sources": [
+            "https://clob.polymarket.com/book?token_id=58248700490994893422432052583850588022892228581430348117260987050885564897242",
+            "https://gamma-api.polymarket.com/markets/slug/will-us-gas-price-be-less-than-3pt99-on-november-10-2026"
+          ],
+          "exchangeStateTimestamp": 1794267533585,
+          "transportRevalidationAt": 1794267543569.1873,
+          "timestampMeaning": "Exchange-clock-calibrated receipt of a new public stream snapshot; original exchange time is exchangeStateTimestamp",
+          "streamInitialized": true,
+          "streamInvalid": false,
+          "freshnessMeaning": "Newly served full WebSocket state, exchange-clock calibrated receipt; original exchange timestamp retained",
+          "depthRetention": "Twenty best levels per side for periodic diagnostics; not a full historic order book"
+        },
+        {
+          "requestedAt": 1794267542780.4897,
+          "receivedAt": 1794267543569.1873,
+          "timestamp": 1794267543569.1873,
+          "market": "will-us-gas-price-be-between-3pt99-and-4pt00-on-november-10-2026",
+          "outcome": "Yes",
+          "token": "48422421716122174063335873679646091272015687179296298711368611324168779407941",
+          "condition": "0xc1c04452c9e2d54512f47dfe917ea2d58a993743cdbfbd23164dd62212af6a01",
+          "asks": [
+            {
+              "price": "0.048",
+              "size": "6"
+            },
+            {
+              "price": "0.049",
+              "size": "20.53"
+            },
+            {
+              "price": "0.05",
+              "size": "70"
+            },
+            {
+              "price": "0.068",
+              "size": "64.8"
+            },
+            {
+              "price": "0.069",
+              "size": "30"
+            },
+            {
+              "price": "0.117",
+              "size": "30"
+            },
+            {
+              "price": "0.188",
+              "size": "30"
+            },
+            {
+              "price": "0.278",
+              "size": "30"
+            },
+            {
+              "price": "0.388",
+              "size": "30"
+            },
+            {
+              "price": "0.499",
+              "size": "30"
+            },
+            {
+              "price": "0.5",
+              "size": "20"
+            },
+            {
+              "price": "0.667",
+              "size": "30"
+            },
+            {
+              "price": "0.91",
+              "size": "5"
+            },
+            {
+              "price": "0.99",
+              "size": "5"
+            },
+            {
+              "price": "0.994",
+              "size": "29.99"
+            },
+            {
+              "price": "0.995",
+              "size": "36"
+            },
+            {
+              "price": "0.998",
+              "size": "467.42"
+            },
+            {
+              "price": "0.999",
+              "size": "2705.15"
+            }
+          ],
+          "bids": [
+            {
+              "price": "0.011",
+              "size": "20.53"
+            },
+            {
+              "price": "0.01",
+              "size": "25"
+            },
+            {
+              "price": "0.009",
+              "size": "47.3"
+            },
+            {
+              "price": "0.008",
+              "size": "20"
+            },
+            {
+              "price": "0.007",
+              "size": "20"
+            },
+            {
+              "price": "0.006",
+              "size": "26.13"
+            },
+            {
+              "price": "0.005",
+              "size": "20"
+            },
+            {
+              "price": "0.004",
+              "size": "26.17"
+            },
+            {
+              "price": "0.003",
+              "size": "20"
+            },
+            {
+              "price": "0.002",
+              "size": "138.86"
+            },
+            {
+              "price": "0.001",
+              "size": "1042.49"
+            }
+          ],
+          "hash": "fb2fd61269140d0b85e590ff2ff8cd32d5abfb33",
+          "minNotional": 5,
+          "minShares": 5,
+          "acceptingOrders": true,
+          "feeRate": 0.04,
+          "feeExponent": 1,
+          "sources": [
+            "https://clob.polymarket.com/book?token_id=48422421716122174063335873679646091272015687179296298711368611324168779407941",
+            "https://gamma-api.polymarket.com/markets/slug/will-us-gas-price-be-between-3pt99-and-4pt00-on-november-10-2026"
+          ],
+          "exchangeStateTimestamp": 1794267385755,
+          "transportRevalidationAt": 1794267543569.1873,
+          "timestampMeaning": "Exchange-clock-calibrated receipt of a new public stream snapshot; original exchange time is exchangeStateTimestamp",
+          "streamInitialized": true,
+          "streamInvalid": false,
+          "freshnessMeaning": "Newly served full WebSocket state, exchange-clock calibrated receipt; original exchange timestamp retained",
+          "depthRetention": "Twenty best levels per side for periodic diagnostics; not a full historic order book"
+        },
+        {
+          "requestedAt": 1794267542782.909,
+          "receivedAt": 1794267543569.1873,
+          "timestamp": 1794267543569.1873,
+          "market": "will-us-gas-price-be-between-4pt00-and-4pt01-on-november-10-2026",
+          "outcome": "Yes",
+          "token": "95869368647435951779119401963012543671825030907536579730592090569205780358005",
+          "condition": "0xf1296102f68669bb5d81d1eb80ee9ced485580087bb3d9b7fbeb9e5691bf986d",
+          "asks": [
+            {
+              "price": "0.038",
+              "size": "30.01"
+            },
+            {
+              "price": "0.039",
+              "size": "50"
+            },
+            {
+              "price": "0.04",
+              "size": "20"
+            },
+            {
+              "price": "0.046",
+              "size": "5.12"
+            },
+            {
+              "price": "0.047",
+              "size": "20"
+            },
+            {
+              "price": "0.067",
+              "size": "64.8"
+            },
+            {
+              "price": "0.068",
+              "size": "30"
+            },
+            {
+              "price": "0.108",
+              "size": "30"
+            },
+            {
+              "price": "0.178",
+              "size": "30"
+            },
+            {
+              "price": "0.268",
+              "size": "30"
+            },
+            {
+              "price": "0.378",
+              "size": "30"
+            },
+            {
+              "price": "0.499",
+              "size": "30"
+            },
+            {
+              "price": "0.5",
+              "size": "20"
+            },
+            {
+              "price": "0.539",
+              "size": "30"
+            },
+            {
+              "price": "0.54",
+              "size": "20"
+            },
+            {
+              "price": "0.984",
+              "size": "5.62"
+            },
+            {
+              "price": "0.985",
+              "size": "6"
+            },
+            {
+              "price": "0.99",
+              "size": "5"
+            },
+            {
+              "price": "0.998",
+              "size": "512.42"
+            },
+            {
+              "price": "0.999",
+              "size": "2755.23"
+            }
+          ],
+          "bids": [
+            {
+              "price": "0.001",
+              "size": "78.63"
+            }
+          ],
+          "hash": "b1f5a51d307942219d3eba08beaf5a6f57f01371",
+          "minNotional": 5,
+          "minShares": 5,
+          "acceptingOrders": true,
+          "feeRate": 0.04,
+          "feeExponent": 1,
+          "sources": [
+            "https://clob.polymarket.com/book?token_id=95869368647435951779119401963012543671825030907536579730592090569205780358005",
+            "https://gamma-api.polymarket.com/markets/slug/will-us-gas-price-be-between-4pt00-and-4pt01-on-november-10-2026"
+          ],
+          "exchangeStateTimestamp": 1794267456813,
+          "transportRevalidationAt": 1794267543569.1873,
+          "timestampMeaning": "Exchange-clock-calibrated receipt of a new public stream snapshot; original exchange time is exchangeStateTimestamp",
+          "streamInitialized": true,
+          "streamInvalid": false,
+          "freshnessMeaning": "Newly served full WebSocket state, exchange-clock calibrated receipt; original exchange timestamp retained",
+          "depthRetention": "Twenty best levels per side for periodic diagnostics; not a full historic order book"
+        },
+        {
+          "requestedAt": 1794267542785.4387,
+          "receivedAt": 1794267543569.1873,
+          "timestamp": 1794267543569.1873,
+          "market": "will-us-gas-price-be-between-4pt01-and-4pt02-on-november-10-2026",
+          "outcome": "Yes",
+          "token": "29933284720097987623765528683664284784529428120753502506654028855111921703757",
+          "condition": "0xdc85d1186f0a9818e9f91049aa92f9e8f199dd78deb1aa3872d3ff5c444216b5",
+          "asks": [
+            {
+              "price": "0.036",
+              "size": "5.51"
+            },
+            {
+              "price": "0.037",
+              "size": "5"
+            },
+            {
+              "price": "0.038",
+              "size": "30"
+            },
+            {
+              "price": "0.039",
+              "size": "20"
+            },
+            {
+              "price": "0.058",
+              "size": "24.96"
+            },
+            {
+              "price": "0.059",
+              "size": "30"
+            },
+            {
+              "price": "0.099",
+              "size": "30"
+            },
+            {
+              "price": "0.1",
+              "size": "20"
+            },
+            {
+              "price": "0.184",
+              "size": "30"
+            },
+            {
+              "price": "0.274",
+              "size": "30"
+            },
+            {
+              "price": "0.384",
+              "size": "30"
+            },
+            {
+              "price": "0.514",
+              "size": "30"
+            },
+            {
+              "price": "0.662",
+              "size": "30"
+            },
+            {
+              "price": "0.99",
+              "size": "5"
+            },
+            {
+              "price": "0.994",
+              "size": "32.5"
+            },
+            {
+              "price": "0.995",
+              "size": "39"
+            },
+            {
+              "price": "0.998",
+              "size": "459.92"
+            },
+            {
+              "price": "0.999",
+              "size": "2705.14"
+            }
+          ],
+          "bids": [
+            {
+              "price": "0.001",
+              "size": "64.86"
+            }
+          ],
+          "hash": "6a3f68a11a69b6c7818a0f3ed3fa6def09135deb",
+          "minNotional": 5,
+          "minShares": 5,
+          "acceptingOrders": true,
+          "feeRate": 0.04,
+          "feeExponent": 1,
+          "sources": [
+            "https://clob.polymarket.com/book?token_id=29933284720097987623765528683664284784529428120753502506654028855111921703757",
+            "https://gamma-api.polymarket.com/markets/slug/will-us-gas-price-be-between-4pt01-and-4pt02-on-november-10-2026"
+          ],
+          "exchangeStateTimestamp": 1794267536465,
+          "transportRevalidationAt": 1794267543569.1873,
+          "timestampMeaning": "Exchange-clock-calibrated receipt of a new public stream snapshot; original exchange time is exchangeStateTimestamp",
+          "streamInitialized": true,
+          "streamInvalid": false,
+          "freshnessMeaning": "Newly served full WebSocket state, exchange-clock calibrated receipt; original exchange timestamp retained",
+          "depthRetention": "Twenty best levels per side for periodic diagnostics; not a full historic order book"
+        },
+        {
+          "requestedAt": 1794267542787.5842,
+          "receivedAt": 1794267543569.1873,
+          "timestamp": 1794267543569.1873,
+          "market": "will-us-gas-price-be-between-4pt02-and-4pt03-on-november-10-2026",
+          "outcome": "Yes",
+          "token": "69233084327737188360823828858378168810867324626401822874318279281105906062968",
+          "condition": "0x0a9c880ff994eb804f0ce5e8428690109a149751a571c70f7eec2a5d3f7161e3",
+          "asks": [
+            {
+              "price": "0.036",
+              "size": "12"
+            },
+            {
+              "price": "0.037",
+              "size": "10"
+            },
+            {
+              "price": "0.039",
+              "size": "20"
+            },
+            {
+              "price": "0.048",
+              "size": "30"
+            },
+            {
+              "price": "0.05",
+              "size": "64.8"
+            },
+            {
+              "price": "0.051",
+              "size": "30"
+            },
+            {
+              "price": "0.099",
+              "size": "30"
+            },
+            {
+              "price": "0.1",
+              "size": "20"
+            },
+            {
+              "price": "0.173",
+              "size": "30"
+            },
+            {
+              "price": "0.263",
+              "size": "30"
+            },
+            {
+              "price": "0.373",
+              "size": "30"
+            },
+            {
+              "price": "0.503",
+              "size": "30"
+            },
+            {
+              "price": "0.99",
+              "size": "5"
+            },
+            {
+              "price": "0.996",
+              "size": "225"
+            },
+            {
+              "price": "0.997",
+              "size": "300"
+            },
+            {
+              "price": "0.998",
+              "size": "107.42"
+            },
+            {
+              "price": "0.999",
+              "size": "2705.15"
+            }
+          ],
+          "bids": [
+            {
+              "price": "0.001",
+              "size": "124.66"
+            }
+          ],
+          "hash": "23fa0dc90a8f542667b4af9de821de67afc74849",
+          "minNotional": 5,
+          "minShares": 5,
+          "acceptingOrders": true,
+          "feeRate": 0.04,
+          "feeExponent": 1,
+          "sources": [
+            "https://clob.polymarket.com/book?token_id=69233084327737188360823828858378168810867324626401822874318279281105906062968",
+            "https://gamma-api.polymarket.com/markets/slug/will-us-gas-price-be-between-4pt02-and-4pt03-on-november-10-2026"
+          ],
+          "exchangeStateTimestamp": 1794267533010,
+          "transportRevalidationAt": 1794267543569.1873,
+          "timestampMeaning": "Exchange-clock-calibrated receipt of a new public stream snapshot; original exchange time is exchangeStateTimestamp",
+          "streamInitialized": true,
+          "streamInvalid": false,
+          "freshnessMeaning": "Newly served full WebSocket state, exchange-clock calibrated receipt; original exchange timestamp retained",
+          "depthRetention": "Twenty best levels per side for periodic diagnostics; not a full historic order book"
+        },
+        {
+          "requestedAt": 1794267542789.5972,
+          "receivedAt": 1794267543569.1873,
+          "timestamp": 1794267543569.1873,
+          "market": "will-us-gas-price-be-4pt03-or-more-on-november-10-2026",
+          "outcome": "Yes",
+          "token": "47637152580880682076143618340275117683350533398972906701063592457409962181358",
+          "condition": "0xf16a498b9d61235bd155cc7d629b7460e9c6da0c6a25e6e0530686364f42db88",
+          "asks": [
+            {
+              "price": "0.036",
+              "size": "12"
+            },
+            {
+              "price": "0.039",
+              "size": "20"
+            },
+            {
+              "price": "0.049",
+              "size": "10"
+            },
+            {
+              "price": "0.05",
+              "size": "30"
+            },
+            {
+              "price": "0.074",
+              "size": "30"
+            },
+            {
+              "price": "0.1",
+              "size": "50"
+            },
+            {
+              "price": "0.239",
+              "size": "30"
+            },
+            {
+              "price": "0.349",
+              "size": "30"
+            },
+            {
+              "price": "0.479",
+              "size": "30"
+            },
+            {
+              "price": "0.629",
+              "size": "30"
+            },
+            {
+              "price": "0.99",
+              "size": "5"
+            },
+            {
+              "price": "0.992",
+              "size": "44.61"
+            },
+            {
+              "price": "0.993",
+              "size": "51"
+            },
+            {
+              "price": "0.998",
+              "size": "378.87"
+            },
+            {
+              "price": "0.999",
+              "size": "2705.27"
+            }
+          ],
+          "bids": [
+            {
+              "price": "0.001",
+              "size": "124.66"
+            }
+          ],
+          "hash": "69b59a83991e0f0f4a9f0545f25a4271d88cca08",
+          "minNotional": 5,
+          "minShares": 5,
+          "acceptingOrders": true,
+          "feeRate": 0.04,
+          "feeExponent": 1,
+          "sources": [
+            "https://clob.polymarket.com/book?token_id=47637152580880682076143618340275117683350533398972906701063592457409962181358",
+            "https://gamma-api.polymarket.com/markets/slug/will-us-gas-price-be-4pt03-or-more-on-november-10-2026"
+          ],
+          "exchangeStateTimestamp": 1794267531886,
+          "transportRevalidationAt": 1794267543569.1873,
+          "timestampMeaning": "Exchange-clock-calibrated receipt of a new public stream snapshot; original exchange time is exchangeStateTimestamp",
+          "streamInitialized": true,
+          "streamInvalid": false,
+          "freshnessMeaning": "Newly served full WebSocket state, exchange-clock calibrated receipt; original exchange timestamp retained",
+          "depthRetention": "Twenty best levels per side for periodic diagnostics; not a full historic order book"
+        }
+      ],
+      "frameCount": 1,
+      "framesHash": "4d5bcdcc14b631c09b938eef934bb99cd2557ac8630c037a616540a12fb48031",
+      "meaning": "Periodic served states; not a continuous price path or reserved liquidity",
+      "id": "books:1794267542775.5527",
+      "kind": "books",
+      "knownAt": 1794267543569.9854
+    }
+  ],
+  "decisions": [],
+  "requests": [
+    {
+      "url": "https://clob.polymarket.com/time",
+      "method": "GET",
+      "startedAt": 1794267541791.8672,
+      "receivedAt": 1794267542161.8818,
+      "status": 200,
+      "bytes": 10,
+      "cacheAge": null,
+      "serverDate": "Mon, 09 Nov 2026 23:39:02 GMT",
+      "lastModified": null,
+      "etag": null,
+      "cacheControl": null,
+      "id": "request:1",
+      "kind": "request",
+      "knownAt": 1794267542163.469
+    },
+    {
+      "url": "https://clob.polymarket.com/time",
+      "method": "GET",
+      "startedAt": 1794267542165.373,
+      "receivedAt": 1794267542292.548,
+      "status": 200,
+      "bytes": 10,
+      "cacheAge": null,
+      "serverDate": "Mon, 09 Nov 2026 23:39:02 GMT",
+      "lastModified": null,
+      "etag": null,
+      "cacheControl": null,
+      "id": "request:2",
+      "kind": "request",
+      "knownAt": 1794267542292.779
+    },
+    {
+      "url": "https://clob.polymarket.com/time",
+      "method": "GET",
+      "startedAt": 1794267542295.3052,
+      "receivedAt": 1794267542407.6096,
+      "status": 200,
+      "bytes": 10,
+      "cacheAge": null,
+      "serverDate": "Mon, 09 Nov 2026 23:39:02 GMT",
+      "lastModified": null,
+      "etag": null,
+      "cacheControl": null,
+      "id": "request:3",
+      "kind": "request",
+      "knownAt": 1794267542407.8833
+    },
+    {
+      "url": "https://clob.polymarket.com/time",
+      "method": "GET",
+      "startedAt": 1794267542409.3308,
+      "receivedAt": 1794267542523.075,
+      "status": 200,
+      "bytes": 10,
+      "cacheAge": null,
+      "serverDate": "Mon, 09 Nov 2026 23:39:02 GMT",
+      "lastModified": null,
+      "etag": null,
+      "cacheControl": null,
+      "id": "request:4",
+      "kind": "request",
+      "knownAt": 1794267542523.2478
+    },
+    {
+      "url": "https://clob.polymarket.com/time",
+      "method": "GET",
+      "startedAt": 1794267542524.502,
+      "receivedAt": 1794267542635.2017,
+      "status": 200,
+      "bytes": 10,
+      "cacheAge": null,
+      "serverDate": "Mon, 09 Nov 2026 23:39:02 GMT",
+      "lastModified": null,
+      "etag": null,
+      "cacheControl": null,
+      "id": "request:5",
+      "kind": "request",
+      "knownAt": 1794267542635.525
+    },
+    {
+      "url": "https://gasprices.aaa.com/",
+      "method": "GET",
+      "startedAt": 1794267542639.0627,
+      "receivedAt": 1794267542768.2048,
+      "status": 200,
+      "bytes": 96396,
+      "cacheAge": "264",
+      "serverDate": "Mon, 09 Nov 2026 23:39:02 GMT",
+      "lastModified": "Mon, 09 Nov 2026 23:34:38 GMT",
+      "etag": null,
+      "cacheControl": "max-age=600, must-revalidate",
+      "id": "request:6",
+      "kind": "request",
+      "knownAt": 1794267542768.5593
+    },
+    {
+      "url": "https://clob.polymarket.com/book?token_id=58248700490994893422432052583850588022892228581430348117260987050885564897242",
+      "method": "GET",
+      "startedAt": 1794267542778.5024,
+      "receivedAt": 1794267542895.8723,
+      "status": 200,
+      "bytes": 966,
+      "cacheAge": null,
+      "serverDate": "Mon, 09 Nov 2026 23:39:02 GMT",
+      "lastModified": null,
+      "etag": null,
+      "cacheControl": null,
+      "id": "request:7",
+      "kind": "request",
+      "knownAt": 1794267542896.0298
+    },
+    {
+      "url": "https://clob.polymarket.com/book?token_id=48422421716122174063335873679646091272015687179296298711368611324168779407941",
+      "method": "GET",
+      "startedAt": 1794267542781.0227,
+      "receivedAt": 1794267542901.9773,
+      "status": 200,
+      "bytes": 1249,
+      "cacheAge": null,
+      "serverDate": "Mon, 09 Nov 2026 23:39:02 GMT",
+      "lastModified": null,
+      "etag": null,
+      "cacheControl": null,
+      "id": "request:9",
+      "kind": "request",
+      "knownAt": 1794267542902.1199
+    },
+    {
+      "url": "https://gamma-api.polymarket.com/markets/slug/will-us-gas-price-be-between-3pt99-and-4pt00-on-november-10-2026",
+      "method": "GET",
+      "startedAt": 1794267542781.8728,
+      "receivedAt": 1794267542902.8137,
+      "status": 200,
+      "bytes": 7333,
+      "cacheAge": "106",
+      "serverDate": "Mon, 09 Nov 2026 23:37:16 GMT",
+      "lastModified": null,
+      "etag": null,
+      "cacheControl": "public, max-age=300",
+      "id": "request:10",
+      "kind": "request",
+      "knownAt": 1794267542903.0574
+    },
+    {
+      "url": "https://gamma-api.polymarket.com/markets/slug/will-us-gas-price-be-between-4pt00-and-4pt01-on-november-10-2026",
+      "method": "GET",
+      "startedAt": 1794267542784.677,
+      "receivedAt": 1794267542906.2134,
+      "status": 200,
+      "bytes": 7336,
+      "cacheAge": "106",
+      "serverDate": "Mon, 09 Nov 2026 23:37:16 GMT",
+      "lastModified": null,
+      "etag": null,
+      "cacheControl": "public, max-age=300",
+      "id": "request:12",
+      "kind": "request",
+      "knownAt": 1794267542906.332
+    },
+    {
+      "url": "https://gamma-api.polymarket.com/markets/slug/will-us-gas-price-be-less-than-3pt99-on-november-10-2026",
+      "method": "GET",
+      "startedAt": 1794267542779.4285,
+      "receivedAt": 1794267542908.0925,
+      "status": 200,
+      "bytes": 7313,
+      "cacheAge": "106",
+      "serverDate": "Mon, 09 Nov 2026 23:37:16 GMT",
+      "lastModified": null,
+      "etag": null,
+      "cacheControl": "public, max-age=300",
+      "id": "request:8",
+      "kind": "request",
+      "knownAt": 1794267542908.2227
+    },
+    {
+      "url": "https://gamma-api.polymarket.com/markets/slug/will-us-gas-price-be-between-4pt01-and-4pt02-on-november-10-2026",
+      "method": "GET",
+      "startedAt": 1794267542786.9148,
+      "receivedAt": 1794267542909.6716,
+      "status": 200,
+      "bytes": 7337,
+      "cacheAge": "106",
+      "serverDate": "Mon, 09 Nov 2026 23:37:16 GMT",
+      "lastModified": null,
+      "etag": null,
+      "cacheControl": "public, max-age=300",
+      "id": "request:14",
+      "kind": "request",
+      "knownAt": 1794267542909.7925
+    },
+    {
+      "url": "https://gamma-api.polymarket.com/markets/slug/will-us-gas-price-be-between-4pt02-and-4pt03-on-november-10-2026",
+      "method": "GET",
+      "startedAt": 1794267542789.105,
+      "receivedAt": 1794267542910.5906,
+      "status": 200,
+      "bytes": 7225,
+      "cacheAge": "106",
+      "serverDate": "Mon, 09 Nov 2026 23:37:16 GMT",
+      "lastModified": null,
+      "etag": null,
+      "cacheControl": "public, max-age=300",
+      "id": "request:16",
+      "kind": "request",
+      "knownAt": 1794267542910.6592
+    },
+    {
+      "url": "https://gamma-api.polymarket.com/markets/slug/will-us-gas-price-be-4pt03-or-more-on-november-10-2026",
+      "method": "GET",
+      "startedAt": 1794267542791.015,
+      "receivedAt": 1794267542913.7102,
+      "status": 200,
+      "bytes": 7190,
+      "cacheAge": "106",
+      "serverDate": "Mon, 09 Nov 2026 23:37:16 GMT",
+      "lastModified": null,
+      "etag": null,
+      "cacheControl": "public, max-age=300",
+      "id": "request:18",
+      "kind": "request",
+      "knownAt": 1794267542913.801
+    },
+    {
+      "url": "https://clob.polymarket.com/book?token_id=69233084327737188360823828858378168810867324626401822874318279281105906062968",
+      "method": "GET",
+      "startedAt": 1794267542788.0056,
+      "receivedAt": 1794267542987.4402,
+      "status": 200,
+      "bytes": 903,
+      "cacheAge": null,
+      "serverDate": "Mon, 09 Nov 2026 23:39:02 GMT",
+      "lastModified": null,
+      "etag": null,
+      "cacheControl": null,
+      "id": "request:15",
+      "kind": "request",
+      "knownAt": 1794267542987.5552
+    },
+    {
+      "url": "https://clob.polymarket.com/book?token_id=95869368647435951779119401963012543671825030907536579730592090569205780358005",
+      "method": "GET",
+      "startedAt": 1794267542783.3784,
+      "receivedAt": 1794267542989.53,
+      "status": 200,
+      "bytes": 995,
+      "cacheAge": null,
+      "serverDate": "Mon, 09 Nov 2026 23:39:02 GMT",
+      "lastModified": null,
+      "etag": null,
+      "cacheControl": null,
+      "id": "request:11",
+      "kind": "request",
+      "knownAt": 1794267542989.7166
+    },
+    {
+      "url": "https://clob.polymarket.com/book?token_id=29933284720097987623765528683664284784529428120753502506654028855111921703757",
+      "method": "GET",
+      "startedAt": 1794267542785.7925,
+      "receivedAt": 1794267542994.16,
+      "status": 200,
+      "bytes": 935,
+      "cacheAge": null,
+      "serverDate": "Mon, 09 Nov 2026 23:39:02 GMT",
+      "lastModified": null,
+      "etag": null,
+      "cacheControl": null,
+      "id": "request:13",
+      "kind": "request",
+      "knownAt": 1794267542994.2449
+    },
+    {
+      "url": "https://clob.polymarket.com/book?token_id=47637152580880682076143618340275117683350533398972906701063592457409962181358",
+      "method": "GET",
+      "startedAt": 1794267542789.973,
+      "receivedAt": 1794267542998.4392,
+      "status": 200,
+      "bytes": 842,
+      "cacheAge": null,
+      "serverDate": "Mon, 09 Nov 2026 23:39:02 GMT",
+      "lastModified": null,
+      "etag": null,
+      "cacheControl": null,
+      "id": "request:17",
+      "kind": "request",
+      "knownAt": 1794267542998.5266
+    },
+    {
+      "url": "https://data-api.polymarket.com/v2/activity?user=0xc8b13df44dc3ea8e53b1d6a840ae5f879dd18436&type=TRADE&start=1794267198&end=1794267543&sort_direction=DESC&limit=1000",
+      "method": "GET",
+      "startedAt": 1794267543572.1523,
+      "receivedAt": 1794267543714.1733,
+      "status": 200,
+      "bytes": 86,
+      "cacheAge": null,
+      "serverDate": "Mon, 09 Nov 2026 23:39:03 GMT",
+      "lastModified": null,
+      "etag": null,
+      "cacheControl": "public, max-age=15",
+      "id": "request:19",
+      "kind": "request",
+      "knownAt": 1794267543714.3325
+    },
+    {
+      "url": "https://data-api.polymarket.com/v2/activity?user=0xe9f5d0aab304d41ff037436d2d920524ed6d7368&type=TRADE&start=1794267198&end=1794267543&sort_direction=DESC&limit=1000",
+      "method": "GET",
+      "startedAt": 1794267543717.1677,
+      "receivedAt": 1794267543841.7407,
+      "status": 200,
+      "bytes": 86,
+      "cacheAge": null,
+      "serverDate": "Mon, 09 Nov 2026 23:39:03 GMT",
+      "lastModified": null,
+      "etag": null,
+      "cacheControl": "public, max-age=15",
+      "id": "request:20",
+      "kind": "request",
+      "knownAt": 1794267543841.8972
+    }
+  ],
+  "walletActions": [],
+  "coverage": [
+    {
+      "wallet": "0xc8b13df44dc3ea8e53b1d6a840ae5f879dd18436",
+      "from": 1794267198744,
+      "end": 1794267543571.5427,
+      "receivedAt": 1794267543715.119,
+      "pages": 1,
+      "complete": true,
+      "targetRows": 0,
+      "allRows": 0,
+      "lastSuccess": 1794267543715.119,
+      "id": "wallet-read:0xc8b13df44dc3ea8e53b1d6a840ae5f879dd18436:1794267543715.119",
+      "kind": "wallet-read",
+      "knownAt": 1794267543715.1587
+    },
+    {
+      "wallet": "0xe9f5d0aab304d41ff037436d2d920524ed6d7368",
+      "from": 1794267198744,
+      "end": 1794267543716.6423,
+      "receivedAt": 1794267543842.5898,
+      "pages": 1,
+      "complete": true,
+      "targetRows": 0,
+      "allRows": 0,
+      "lastSuccess": 1794267543842.5898,
+      "id": "wallet-read:0xe9f5d0aab304d41ff037436d2d920524ed6d7368:1794267543842.5898",
+      "kind": "wallet-read",
+      "knownAt": 1794267543842.6072
+    }
+  ]
+}
