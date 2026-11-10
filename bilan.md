@@ -1,6 +1,6 @@
 # Observation indépendante AAA du 10 novembre 2026
 
-État : **waiting-for-target-value**, rapport au 2026-11-10T03:19:06.635Z.
+État : **waiting-for-target-value**, rapport au 2026-11-10T06:59:18.276Z.
 
 [Run GitHub](https://github.com/rayantr06/polymarket-paper-lab/actions/runs/42722136789) · [Source AAA](https://gasprices.aaa.com/) · [Méthode de publication AAA](https://gasprices.aaa.com/about-aaa/) · [Preuves structurées](preuves.json)
 
@@ -11,7 +11,7 @@ Fenêtre fixe : 2026-11-09T23:33:18.744Z → 2026-11-10T19:33:18.744Z. Révision
 AAA annonce une mise à jour quotidienne vers **03:00 ET** (2026-11-10T08:00:00.000Z pour ce jour). Le contrat observe la source à **10:00 ET** (2026-11-10T15:00:00.000Z). L’observateur utilise l’heure réelle de réception intégrale de chaque page.
 La valeur du jour cible n’a pas encore été reçue. Aucun prix post-publication ni gain disponible.
 
-Dernière source : 2026-11-09, 4.0093 ; cache Age=212. 216 lectures ; 0 erreurs ; 0 interruptions consignées.
+Dernière source : 2026-11-09, 4.0093 ; cache Age=222. 433 lectures ; 0 erreurs ; 0 interruptions consignées.
 
 ## Expériences virtuelles après première réception
 
@@ -23,7 +23,7 @@ Chaque délai est un portefeuille alternatif de 50 pUSD fictifs. Achat du Yes co
 
 ## Wallets et carnets
 
-0 actions du jour cible reçues ; 176 lectures de couverture. Les données d’exécution ne donnent pas l’heure de placement des ordres. 44 diagnostics de carnet avant réception cible, espacés d’environ cinq minutes. Aucun mouvement entre ces points n’est reconstitué.
+0 actions du jour cible reçues ; 352 lectures de couverture. Les données d’exécution ne donnent pas l’heure de placement des ordres. 88 diagnostics de carnet avant réception cible, espacés d’environ cinq minutes. Aucun mouvement entre ces points n’est reconstitué.
 
 ## Limites
 
