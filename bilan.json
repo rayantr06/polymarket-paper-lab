@@ -13,11 +13,11 @@
     "knownAt": 1794262993235
   },
   "status": "capture",
-  "generatedAt": 1794332688477,
-  "lastTick": 1794332633575,
-  "ticks": 1160,
-  "requests": 3863,
-  "storageBytes": 339968,
+  "generatedAt": 1794341402396,
+  "lastTick": 1794341347791.5,
+  "ticks": 1305,
+  "requests": 4349,
+  "storageBytes": 360448,
   "wallets": [
     {
       "wallet": "0x958bdb8aa30b8e5bd1fe4ee071f309c84e97f826",
@@ -27,8 +27,8 @@
       "baselineEvents": [
         "es2-sab-rso-2026-11-09"
       ],
-      "lastSuccess": 1794332633218,
-      "polls": 1160,
+      "lastSuccess": 1794341347550.5,
+      "polls": 1305,
       "actions": 0
     },
     {
@@ -37,8 +37,8 @@
       "family": "aaa",
       "baseline": true,
       "baselineEvents": [],
-      "lastSuccess": 1794332633397,
-      "polls": 1160,
+      "lastSuccess": 1794341347674.5,
+      "polls": 1305,
       "actions": 8
     },
     {
@@ -49,13 +49,13 @@
       "baselineEvents": [
         "us-gas-price-on-november-10-2026"
       ],
-      "lastSuccess": 1794332633574,
-      "polls": 1160,
+      "lastSuccess": 1794341347790.5,
+      "polls": 1305,
       "actions": 0
     }
   ],
   "cases": 1,
-  "decisions": 6,
+  "decisions": 9,
   "groups": [
     {
       "wallet": "0x958bdb8aa30b8e5bd1fe4ee071f309c84e97f826",
@@ -199,7 +199,7 @@
       "name": "aschenbrenner",
       "delayMinutes": 15,
       "arm": "wallet",
-      "signals": 0,
+      "signals": 1,
       "baskets": 0,
       "resolved": 0,
       "unresolved": 0,
@@ -207,18 +207,20 @@
       "settledCost": 0,
       "netResolved": 0,
       "positive": 0,
-      "abstentions": {}
+      "abstentions": {
+        "HTTP 429 data-api.polymarket.com": 1
+      }
     },
     {
       "wallet": "0xc8b13df44dc3ea8e53b1d6a840ae5f879dd18436",
       "name": "aschenbrenner",
       "delayMinutes": 15,
       "arm": "persistence",
-      "signals": 0,
-      "baskets": 0,
+      "signals": 1,
+      "baskets": 1,
       "resolved": 0,
-      "unresolved": 0,
-      "cost": 0,
+      "unresolved": 1,
+      "cost": 99.99999975499995,
       "settledCost": 0,
       "netResolved": 0,
       "positive": 0,
@@ -229,11 +231,11 @@
       "name": "aschenbrenner",
       "delayMinutes": 15,
       "arm": "trend",
-      "signals": 0,
-      "baskets": 0,
+      "signals": 1,
+      "baskets": 1,
       "resolved": 0,
-      "unresolved": 0,
-      "cost": 0,
+      "unresolved": 1,
+      "cost": 99.999999135,
       "settledCost": 0,
       "netResolved": 0,
       "positive": 0,
