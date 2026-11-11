@@ -1,9 +1,9 @@
 # Test virtuel prospectif de trois wallets
 
-État : **capture**. Bilan généré le 2026-11-11T17:57:06.954Z.
+État : **capture**. Bilan généré le 2026-11-11T20:22:18.290Z.
 
 Capture : 2026-11-09T22:23:13.235Z → 2026-11-16T22:23:13.235Z. Résolutions suivies jusqu’au 2026-11-18T22:23:13.235Z.
-Dernier passage : 2026-11-11T17:56:11.909Z. 2610 passages, 8871 requêtes publiques.
+Dernier passage : 2026-11-11T20:21:23.639Z. 2755 passages, 9350 requêtes publiques.
 Révision : eab384b7aefae412058973b289279840a22e0449. Run : [42711347661](https://github.com/rayantr06/polymarket-paper-lab/actions/runs/42711347661).
 
 3 nouveaux cas ; 27 décisions incluant les abstentions. 0 interruptions de lecture consignées ; 1 erreurs (1 exemples par portée/heure).
@@ -36,9 +36,9 @@ Un zéro sans panier résolu ne constitue pas un rendement nul : aucun résultat
 
 ## Couverture
 
-- Multicoloured-Serf : 2610 lectures complètes ; dernier succès 2026-11-11T17:56:11.598Z ; 1 événements déjà détenus exclus.
-- aschenbrenner : 2610 lectures complètes ; dernier succès 2026-11-11T17:56:11.752Z ; 0 événements déjà détenus exclus.
-- LllLH : 2610 lectures complètes ; dernier succès 2026-11-11T17:56:11.906Z ; 1 événements déjà détenus exclus.
+- Multicoloured-Serf : 2755 lectures complètes ; dernier succès 2026-11-11T20:21:23.276Z ; 1 événements déjà détenus exclus.
+- aschenbrenner : 2755 lectures complètes ; dernier succès 2026-11-11T20:21:23.462Z ; 0 événements déjà détenus exclus.
+- LllLH : 2755 lectures complètes ; dernier succès 2026-11-11T20:21:23.636Z ; 1 événements déjà détenus exclus.
 
 
 ## Abstentions

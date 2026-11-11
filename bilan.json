@@ -13,10 +13,10 @@
     "knownAt": 1794262993235
   },
   "status": "capture",
-  "generatedAt": 1794419826954,
-  "lastTick": 1794419771909.5,
-  "ticks": 2610,
-  "requests": 8871,
+  "generatedAt": 1794428538290,
+  "lastTick": 1794428483639,
+  "ticks": 2755,
+  "requests": 9350,
   "storageBytes": 733184,
   "wallets": [
     {
@@ -27,8 +27,8 @@
       "baselineEvents": [
         "es2-sab-rso-2026-11-09"
       ],
-      "lastSuccess": 1794419771598.5,
-      "polls": 2610,
+      "lastSuccess": 1794428483276,
+      "polls": 2755,
       "actions": 0
     },
     {
@@ -37,8 +37,8 @@
       "family": "aaa",
       "baseline": true,
       "baselineEvents": [],
-      "lastSuccess": 1794419771752.5,
-      "polls": 2610,
+      "lastSuccess": 1794428483462,
+      "polls": 2755,
       "actions": 22
     },
     {
@@ -49,8 +49,8 @@
       "baselineEvents": [
         "us-gas-price-on-november-10-2026"
       ],
-      "lastSuccess": 1794419771906.5,
-      "polls": 2610,
+      "lastSuccess": 1794428483636,
+      "polls": 2755,
       "actions": 3
     }
   ],
