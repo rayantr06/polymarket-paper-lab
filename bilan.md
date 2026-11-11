@@ -1,27 +1,27 @@
 # Test virtuel prospectif de trois wallets
 
-État : **capture**. Bilan généré le 2026-11-11T15:31:55.640Z.
+État : **capture**. Bilan généré le 2026-11-11T17:57:06.954Z.
 
 Capture : 2026-11-09T22:23:13.235Z → 2026-11-16T22:23:13.235Z. Résolutions suivies jusqu’au 2026-11-18T22:23:13.235Z.
-Dernier passage : 2026-11-11T15:31:00.982Z. 2465 passages, 8254 requêtes publiques.
+Dernier passage : 2026-11-11T17:56:11.909Z. 2610 passages, 8871 requêtes publiques.
 Révision : eab384b7aefae412058973b289279840a22e0449. Run : [42711347661](https://github.com/rayantr06/polymarket-paper-lab/actions/runs/42711347661).
 
-2 nouveaux cas ; 18 décisions incluant les abstentions. 0 interruptions de lecture consignées ; 0 erreurs (0 exemples par portée/heure).
+3 nouveaux cas ; 27 décisions incluant les abstentions. 0 interruptions de lecture consignées ; 1 erreurs (1 exemples par portée/heure).
 
 | Wallet | Délai | Méthode | Paniers | Résolus | Non résolus | Net résolu (pUSD) |
 |---|---:|---|---:|---:|---:|---:|
 | Multicoloured-Serf | 1 min | wallet | 0 | 0 | 0 | 0.0000 |
 | Multicoloured-Serf | 5 min | wallet | 0 | 0 | 0 | 0.0000 |
 | Multicoloured-Serf | 15 min | wallet | 0 | 0 | 0 | 0.0000 |
-| aschenbrenner | 1 min | wallet | 0 | 0 | 0 | 0.0000 |
-| aschenbrenner | 1 min | persistence | 1 | 0 | 1 | 0.0000 |
-| aschenbrenner | 1 min | trend | 1 | 0 | 1 | 0.0000 |
-| aschenbrenner | 5 min | wallet | 1 | 0 | 1 | 0.0000 |
-| aschenbrenner | 5 min | persistence | 1 | 0 | 1 | 0.0000 |
-| aschenbrenner | 5 min | trend | 1 | 0 | 1 | 0.0000 |
-| aschenbrenner | 15 min | wallet | 0 | 0 | 0 | 0.0000 |
-| aschenbrenner | 15 min | persistence | 1 | 0 | 1 | 0.0000 |
-| aschenbrenner | 15 min | trend | 1 | 0 | 1 | 0.0000 |
+| aschenbrenner | 1 min | wallet | 1 | 0 | 1 | 0.0000 |
+| aschenbrenner | 1 min | persistence | 1 | 1 | 0 | -100.0000 |
+| aschenbrenner | 1 min | trend | 2 | 1 | 1 | 1.0420 |
+| aschenbrenner | 5 min | wallet | 2 | 1 | 1 | 1.3945 |
+| aschenbrenner | 5 min | persistence | 2 | 1 | 1 | -100.0000 |
+| aschenbrenner | 5 min | trend | 2 | 1 | 1 | 1.3945 |
+| aschenbrenner | 15 min | wallet | 1 | 0 | 1 | 0.0000 |
+| aschenbrenner | 15 min | persistence | 2 | 1 | 1 | -100.0000 |
+| aschenbrenner | 15 min | trend | 2 | 1 | 1 | 0.9620 |
 | LllLH | 1 min | wallet | 1 | 0 | 1 | 0.0000 |
 | LllLH | 1 min | persistence | 1 | 0 | 1 | 0.0000 |
 | LllLH | 1 min | trend | 1 | 0 | 1 | 0.0000 |
@@ -36,14 +36,15 @@ Un zéro sans panier résolu ne constitue pas un rendement nul : aucun résultat
 
 ## Couverture
 
-- Multicoloured-Serf : 2465 lectures complètes ; dernier succès 2026-11-11T15:31:00.737Z ; 1 événements déjà détenus exclus.
-- aschenbrenner : 2465 lectures complètes ; dernier succès 2026-11-11T15:31:00.860Z ; 0 événements déjà détenus exclus.
-- LllLH : 2465 lectures complètes ; dernier succès 2026-11-11T15:31:00.980Z ; 1 événements déjà détenus exclus.
+- Multicoloured-Serf : 2610 lectures complètes ; dernier succès 2026-11-11T17:56:11.598Z ; 1 événements déjà détenus exclus.
+- aschenbrenner : 2610 lectures complètes ; dernier succès 2026-11-11T17:56:11.752Z ; 0 événements déjà détenus exclus.
+- LllLH : 2610 lectures complètes ; dernier succès 2026-11-11T17:56:11.906Z ; 1 événements déjà détenus exclus.
 
 
 ## Abstentions
 
 - aschenbrenner, 1 min, wallet : 1 × HTTP 429 data-api.polymarket.com.
+- aschenbrenner, 1 min, persistence : 1 × Invalid, stale or unavailable basket leg.
 - aschenbrenner, 15 min, wallet : 1 × HTTP 429 data-api.polymarket.com.
 
 ## Limites

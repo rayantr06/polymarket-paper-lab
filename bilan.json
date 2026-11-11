@@ -13,11 +13,11 @@
     "knownAt": 1794262993235
   },
   "status": "capture",
-  "generatedAt": 1794411115640,
-  "lastTick": 1794411060982,
-  "ticks": 2465,
-  "requests": 8254,
-  "storageBytes": 516096,
+  "generatedAt": 1794419826954,
+  "lastTick": 1794419771909.5,
+  "ticks": 2610,
+  "requests": 8871,
+  "storageBytes": 733184,
   "wallets": [
     {
       "wallet": "0x958bdb8aa30b8e5bd1fe4ee071f309c84e97f826",
@@ -27,8 +27,8 @@
       "baselineEvents": [
         "es2-sab-rso-2026-11-09"
       ],
-      "lastSuccess": 1794411060737,
-      "polls": 2465,
+      "lastSuccess": 1794419771598.5,
+      "polls": 2610,
       "actions": 0
     },
     {
@@ -37,9 +37,9 @@
       "family": "aaa",
       "baseline": true,
       "baselineEvents": [],
-      "lastSuccess": 1794411060860,
-      "polls": 2465,
-      "actions": 10
+      "lastSuccess": 1794419771752.5,
+      "polls": 2610,
+      "actions": 22
     },
     {
       "wallet": "0xe9f5d0aab304d41ff037436d2d920524ed6d7368",
@@ -49,13 +49,13 @@
       "baselineEvents": [
         "us-gas-price-on-november-10-2026"
       ],
-      "lastSuccess": 1794411060980,
-      "polls": 2465,
+      "lastSuccess": 1794419771906.5,
+      "polls": 2610,
       "actions": 3
     }
   ],
-  "cases": 2,
-  "decisions": 18,
+  "cases": 3,
+  "decisions": 27,
   "groups": [
     {
       "wallet": "0x958bdb8aa30b8e5bd1fe4ee071f309c84e97f826",
@@ -107,11 +107,11 @@
       "name": "aschenbrenner",
       "delayMinutes": 1,
       "arm": "wallet",
-      "signals": 1,
-      "baskets": 0,
+      "signals": 2,
+      "baskets": 1,
       "resolved": 0,
-      "unresolved": 0,
-      "cost": 0,
+      "unresolved": 1,
+      "cost": 99.924,
       "settledCost": 0,
       "netResolved": 0,
       "positive": 0,
@@ -124,29 +124,31 @@
       "name": "aschenbrenner",
       "delayMinutes": 1,
       "arm": "persistence",
-      "signals": 1,
+      "signals": 2,
       "baskets": 1,
-      "resolved": 0,
-      "unresolved": 1,
+      "resolved": 1,
+      "unresolved": 0,
       "cost": 99.99999976100001,
-      "settledCost": 0,
-      "netResolved": 0,
+      "settledCost": 99.99999976100001,
+      "netResolved": -99.99999976100001,
       "positive": 0,
-      "abstentions": {}
+      "abstentions": {
+        "Invalid, stale or unavailable basket leg": 1
+      }
     },
     {
       "wallet": "0xc8b13df44dc3ea8e53b1d6a840ae5f879dd18436",
       "name": "aschenbrenner",
       "delayMinutes": 1,
       "arm": "trend",
-      "signals": 1,
-      "baskets": 1,
-      "resolved": 0,
+      "signals": 2,
+      "baskets": 2,
+      "resolved": 1,
       "unresolved": 1,
-      "cost": 99.999999205,
-      "settledCost": 0,
-      "netResolved": 0,
-      "positive": 0,
+      "cost": 199.99999868499998,
+      "settledCost": 99.999999205,
+      "netResolved": 1.041959795000011,
+      "positive": 1,
       "abstentions": {}
     },
     {
@@ -154,14 +156,14 @@
       "name": "aschenbrenner",
       "delayMinutes": 5,
       "arm": "wallet",
-      "signals": 1,
-      "baskets": 1,
-      "resolved": 0,
+      "signals": 2,
+      "baskets": 2,
+      "resolved": 1,
       "unresolved": 1,
-      "cost": 99.99999929,
-      "settledCost": 0,
-      "netResolved": 0,
-      "positive": 0,
+      "cost": 199.999999214,
+      "settledCost": 99.99999929,
+      "netResolved": 1.394542709999996,
+      "positive": 1,
       "abstentions": {}
     },
     {
@@ -169,13 +171,13 @@
       "name": "aschenbrenner",
       "delayMinutes": 5,
       "arm": "persistence",
-      "signals": 1,
-      "baskets": 1,
-      "resolved": 0,
+      "signals": 2,
+      "baskets": 2,
+      "resolved": 1,
       "unresolved": 1,
-      "cost": 99.99999964899997,
-      "settledCost": 0,
-      "netResolved": 0,
+      "cost": 199.99999914899996,
+      "settledCost": 99.99999964899997,
+      "netResolved": -99.99999964899997,
       "positive": 0,
       "abstentions": {}
     },
@@ -184,14 +186,14 @@
       "name": "aschenbrenner",
       "delayMinutes": 5,
       "arm": "trend",
-      "signals": 1,
-      "baskets": 1,
-      "resolved": 0,
+      "signals": 2,
+      "baskets": 2,
+      "resolved": 1,
       "unresolved": 1,
-      "cost": 99.99999929,
-      "settledCost": 0,
-      "netResolved": 0,
-      "positive": 0,
+      "cost": 199.99999877,
+      "settledCost": 99.99999929,
+      "netResolved": 1.394542709999996,
+      "positive": 1,
       "abstentions": {}
     },
     {
@@ -199,11 +201,11 @@
       "name": "aschenbrenner",
       "delayMinutes": 15,
       "arm": "wallet",
-      "signals": 1,
-      "baskets": 0,
+      "signals": 2,
+      "baskets": 1,
       "resolved": 0,
-      "unresolved": 0,
-      "cost": 0,
+      "unresolved": 1,
+      "cost": 99.999999106,
       "settledCost": 0,
       "netResolved": 0,
       "positive": 0,
@@ -216,13 +218,13 @@
       "name": "aschenbrenner",
       "delayMinutes": 15,
       "arm": "persistence",
-      "signals": 1,
-      "baskets": 1,
-      "resolved": 0,
+      "signals": 2,
+      "baskets": 2,
+      "resolved": 1,
       "unresolved": 1,
-      "cost": 99.99999975499995,
-      "settledCost": 0,
-      "netResolved": 0,
+      "cost": 199.99999921499997,
+      "settledCost": 99.99999975499995,
+      "netResolved": -99.99999975499995,
       "positive": 0,
       "abstentions": {}
     },
@@ -231,14 +233,14 @@
       "name": "aschenbrenner",
       "delayMinutes": 15,
       "arm": "trend",
-      "signals": 1,
-      "baskets": 1,
-      "resolved": 0,
+      "signals": 2,
+      "baskets": 2,
+      "resolved": 1,
       "unresolved": 1,
-      "cost": 99.999999135,
-      "settledCost": 0,
-      "netResolved": 0,
-      "positive": 0,
+      "cost": 199.99999861499998,
+      "settledCost": 99.999999135,
+      "netResolved": 0.9619558650000073,
+      "positive": 1,
       "abstentions": {}
     },
     {
@@ -377,8 +379,14 @@
       "abstentions": {}
     }
   ],
-  "errors": [],
-  "errorOccurrences": 0,
+  "errors": [
+    {
+      "scope": "payout:0xdfdb3d5295a9a9bcbef1029d135dda5c7ae6b868a4c5c3cf218141db774cd169",
+      "message": "HTTP 429 polygon.gateway.tenderly.co",
+      "knownAt": 1794412207941.5
+    }
+  ],
+  "errorOccurrences": 1,
   "gaps": [],
   "baselineExclusions": [
     {
